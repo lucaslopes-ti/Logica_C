@@ -17,7 +17,7 @@ int main()
         
         media[i] = (pr1[i] + pr2[i]) / 2;
         if (media[i] > 5) {
-            strcpy(situacao[i], "Aprovado");
+            strcpy(situacao[i], "Aprovado"); // aqui utiliza o strcpy importado da bilioteca string.h
         } else {
             strcpy(situacao[i], "Reprovado");
         }
